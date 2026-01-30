@@ -9,17 +9,18 @@ const Hero = () => {
     <section className="relative w-full h-screen mx-auto overflow-hidden">
       
       <div
-        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-center justify-between gap-10`}
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-col md:flex-row items-center justify-center md:justify-between gap-10 text-center md:text-left`}
       >
 
         {/* LEFT SIDE CONTENT */}
-        <div className="flex items-center gap-12">
+        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           
           {/* PROFILE PHOTO — FIXED SIZE */}
           <img
             src={profile}
             alt="Thanusha"
-            className="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover border-4 border-purple-500 shadow-[0_0_25px_rgba(145,94,255,0.35)] transition-all duration-500 hover:scale-105 hover:-translate-y-1 hover:shadow-[0_0_45px_rgba(145,94,255,0.6)]"
+            className="w-40 h-40 sm:w-48 sm:h-48 md:w-72 md:h-72 rounded-full object-cover border-4 border-purple-500 shadow-[0_0_25px_rgba(145,94,255,0.35)] transition-all duration-500 hover:scale-105"
+
 
 
 

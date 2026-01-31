@@ -31,13 +31,22 @@ import {
 import deepfake from "../assets/deepfake.png";
 import webmining from "../assets/webmining.jpeg";
 import livedetect from "../assets/Live Detection.jpg";
+import College_Chatbot from "../assets/College_Chatbot.png";
+import pdftranslator from "../assets/pdf_translator.png";
+import portfolio from "../assets/portfolio.png";
+
+
 
 // ===== NAVIGATION =====
 export const navLinks = [
   { id: "about", title: "About" },
+  { id: "education", title: "Education" },
+  { id: "experience", title: "Experience" },
   { id: "skills", title: "Skills" },
   { id: "work", title: "Projects" },
   { id: "contact", title: "Contact" },
+
+
 ];
 
 // ===== SERVICES =====
@@ -106,6 +115,47 @@ const projects = [
     source_code_link:
       "https://github.com/Thanushaa22/Live-Detection",
   },
+  {
+  name: "AI-college-chatbot",
+  description:
+    "An intelligent college assistant chatbot built with Flask. Ask questions about admissions, courses, fees, hostels, and more!",
+  tags: [
+    { name: "python", color: "blue-text-gradient" },
+    { name: "powershell", color: "green-text-gradient" },
+    { name: "mysql", color: "pink-text-gradient" },
+  ],
+  image: College_Chatbot,
+  source_code_link: "https://github.com/Thanushaa22/AI-college-chatbot",
+},
+{
+  name: "PDF Translator with Text-to-Speech",
+  description:
+    "A Python desktop application that extracts text from PDF files, translates it into multiple languages, and reads it aloud using a Text-to-Speech engine. Built with a simple GUI for easy accessibility.",
+  tags: [
+    { name: "python", color: "blue-text-gradient" },
+    { name: "nlp", color: "green-text-gradient" },
+    { name: "tts", color: "pink-text-gradient" },
+    { name: "tkinter", color: "white-text-gradient" },
+  ],
+  image: pdftranslator,
+  source_code_link: "https://github.com/Thanushaa22/PDF-Translator-with-text-to-speech",
+},
+{
+  name: "Personal Developer Portfolio",
+  description:
+    "A modern, responsive portfolio website built to showcase my projects, skills, and experience. Features smooth animations, 3D visuals, and a recruiter-friendly design focused on performance and usability.",
+  tags: [
+    { name: "react", color: "blue-text-gradient" },
+    { name: "tailwind", color: "white-text-gradient" },
+    { name: "framer-motion", color: "pink-text-gradient" },
+    { name: "threejs", color: "green-text-gradient" },
+  ],
+  image: portfolio,
+  source_code_link: "https://github.com/Thanushaa22/thanusha-portfolio",
+},
+
+
+
 ];
 
 export { services, technologies, projects };

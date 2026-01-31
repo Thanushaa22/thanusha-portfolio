@@ -31,7 +31,7 @@ import {
 import deepfake from "../assets/deepfake.png";
 import webmining from "../assets/webmining.jpeg";
 import livedetect from "../assets/Live Detection.jpg";
-import College_Chatbot from "../assets/College_Chatbot.png";
+import college_chatbot from "../assets/college_chatbot.png";
 import pdftranslator from "../assets/pdf_translator.png";
 import portfolio from "../assets/portfolio.png";
 
@@ -124,7 +124,7 @@ const projects = [
     { name: "powershell", color: "green-text-gradient" },
     { name: "mysql", color: "pink-text-gradient" },
   ],
-  image: College_Chatbot,
+  image: college_chatbot,
   source_code_link: "https://github.com/Thanushaa22/AI-college-chatbot",
 },
 {
